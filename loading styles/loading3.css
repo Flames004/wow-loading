@@ -1,0 +1,103 @@
+.loading-3{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 0px 0px;
+}
+.s-box{
+    height: 30px;
+    width: 30px;
+    border: 9px solid black;
+    border-radius: 25%;
+    margin: 3px;
+}
+
+#s-box1{
+    animation: s-up1 1.5s linear infinite;
+}
+#s-box2{
+    animation: s-up2 1.5s linear infinite;
+}
+#s-box3{
+    animation: s-up3 1.5s linear infinite;
+}
+#s-box4{
+    animation: s-up4 1.5s linear infinite;
+}
+
+@keyframes s-up1 {
+    0%{
+        transform: scale(1);
+    }
+    12%{
+        border-radius: 50%;
+        transform: scale(0.5);
+    }
+    25%{
+        border-radius: 25%;
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes s-up2 {
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        border-radius: 25%;
+        transform: scale(1);
+    }
+    37%{
+        border-radius: 50%;
+        transform: scale(0.5);
+    }
+    50%{
+        border-radius: 25%;
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes s-up3 {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        border-radius: 25%;
+        transform: scale(1);
+    }
+    62%{
+        border-radius: 50%;
+        transform: scale(0.5);
+    }
+    75%{
+        border-radius: 25%;
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes s-up4 {
+    0%{
+        transform: scale(1);
+    }
+    75%{
+        transform: scale(1);
+        border-radius: 25%;
+    }
+    87%{
+        border-radius: 50%;
+        transform: scale(0.5);
+    }
+    100%{
+        border-radius: 25%;
+        transform: scale(1);
+    }
+}
+

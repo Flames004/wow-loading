@@ -1,0 +1,138 @@
+.z-box{
+    height: 8px;
+    width: 8px;
+    margin: 0px 7px;
+    border-radius: 50%;
+    background: #000;
+    transition: transform;
+}
+
+#z-box1{
+    animation: z-up1 1.5s ease-out 0s infinite;
+}
+#z-box2{
+    animation: z-up2 1.5s ease-out -0.125s infinite;
+}
+#z-box3{
+    animation: z-up3 1.5s ease-out -0.25s infinite;
+}
+#z-box4{
+    animation: z-up4 1.5s ease-out -0.375s infinite;
+}
+#z-box5{
+    animation: z-up5 1.5s ease-out -0.5s infinite;
+}
+
+@keyframes z-up1 {
+    0%{
+        transform: scale(1);
+    }
+    5%{
+        transform: scale(1.5);
+    }
+    10%{
+        transform: scale(2.0);
+    }
+    15%{
+        transform: scale(1.5);
+    }
+    20%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes z-up2 {
+    0%{
+        transform: scale(1);
+    }
+    20%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.5);
+    }
+    30%{
+        transform: scale(2.0);
+    }
+    35%{
+        transform: scale(1.5);
+    }
+    40%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes z-up3 {
+    0%{
+        transform: scale(1);
+    }
+    40%{
+        transform: scale(1);
+    }
+    45%{
+        transform: scale(1.5);
+    }
+    50%{
+        transform: scale(2.0);
+    }
+    55%{
+        transform: scale(1.5);
+    }
+    60%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes z-up4 {
+    0%{
+        transform: scale(1);
+    }
+    60%{
+        transform: scale(1);
+    }
+    65%{
+        transform: scale(1.5);
+    }
+    70%{
+        transform: scale(2.0);
+    }
+    75%{
+        transform: scale(1.5);
+    }
+    80%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes z-up5 {
+    0%{
+        transform: scale(1);
+    }
+    80%{
+        transform: scale(1);
+    }
+    85%{
+        transform: scale(1.5);
+    }
+    90%{
+        transform: scale(2.0);
+    }
+    95%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
