@@ -2,37 +2,6 @@
 
 This project is a collection of various loading styles for websites, providing developers with different loading animations and techniques to enhance user experience while content is being fetched or processed. Each loading style is designed to be easily integrated into existing web projects or used as a standalone element.
 
-## Table of Contents:
-### 1. Introduction
-   - Purpose of the Project
-   - Features
-   - How to Use the Collection
-
-### 2. Installation
-   - Prerequisites
-   - Getting Started
-
-### 3. Loading Styles
-   - Style 1: Spinner Animation
-   - Style 2: Fading Overlay
-   - Style 3: Progress Bar
-   - Style 4: Rotating Icon
-   - Style 5: Gradient Background Transition
-
-### 4. Usage Examples
-   - Code Snippets
-   - Integration into Existing Projects
-
-### 5. Contributing
-   - Guidelines for Contributors
-   - Reporting Issues
-   - Feature Requests
-
-### 6. License
-   - Project License Information
-
----
-
 ## 1. Introduction:
 - **Purpose of the Project:** The main purpose of this project is to provide web developers with a curated collection of loading styles that can be used to enhance the visual appeal and interactivity of their websites during the loading process. These loading styles aim to keep users engaged and informed while content is being loaded or processed in the background.
 
